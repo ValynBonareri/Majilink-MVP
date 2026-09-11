@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk_engine"
+version = "0.1.0"
+description = "Climate & flood risk assessment engine for TerraRisk"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["risk_engine"]
+
+[tool.setuptools.package-dir]
+risk_engine = "."

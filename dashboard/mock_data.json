@@ -1,0 +1,32 @@
+{
+  "property": {
+    "name": "Nairobi Test Property",
+    "latitude": -1.2921,
+    "longitude": 36.8219,
+    "location": "Nairobi, Kenya"
+  },
+  "assessment": {
+    "overall_risk": 3,
+    "flood_risk": 3,
+    "rainfall_risk": 2,
+    "terrain_risk": 2,
+    "waterway_risk": 3
+  },
+  "metrics": {
+    "elevation_m": 1666,
+    "slope_degrees": 2.8,
+    "distance_to_waterway_m": 180
+  },
+  "findings": [
+    "Elevated flood exposure",
+    "Moderate rainfall exposure",
+    "Moderate terrain exposure"
+  ],
+  "recommendations": [
+    "Conduct detailed flood and drainage assessment before acquisition."
+  ],
+  "metadata": {
+    "assessment_date": "2026-08-18",
+    "data_coverage": "2025 demonstration data"
+  }
+}
