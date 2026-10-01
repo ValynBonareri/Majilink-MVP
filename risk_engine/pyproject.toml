@@ -7,7 +7,7 @@ name = "risk_engine"
 version = "0.1.0"
 description = "Climate & flood risk assessment engine for TerraRisk"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = ["numpy", "pandas", "tifffile"]
 
 [tool.setuptools]
 packages = ["risk_engine"]
